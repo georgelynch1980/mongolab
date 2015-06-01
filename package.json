@@ -25,12 +25,12 @@
     "sails-mongo": "0.11"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "sails lift"
   },
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/georgelynch1980/mongolab.git"
+    "url": "https://github.com/georgelynch1980/mongolab.git
   },
   "author": "georgelynch1980",
   "license": ""
