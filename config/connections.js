@@ -63,16 +63,16 @@ module.exports.connections = {
         // user: 'username',
         // password: 'password',
         //database: 'showdemo'
-        url:'mongodb://georgelynch1980_2:georgelynch1980@ds043012.mongolab.com:43012/heroku_app37389978'
+        //url: 'mongodb://georgelynch1980_2:georgelynch1980@ds043012.mongolab.com:43012/heroku_app37389978'
     },
 
     MongoLabServer: {
         adapter: 'sails-mongo',
-        //host: 'localhost',
-        //port: 27017,
-        // user: 'username',
-        // password: 'password',
-        url: 'mongodb://heroku_app37393524:k14lb2d65hhq7h06putq4n8ooe@ds043012.mongolab.com:43012/heroku_app37389978/showdemo'
+        host: 'ds043012.mongolab.com',
+        port: 43012,
+        user: 'heroku_app37393524',
+        password: 'k14lb2d65hhq7h06putq4n8ooe',
+        database: 'showdemo'
     },
 
     /***************************************************************************
