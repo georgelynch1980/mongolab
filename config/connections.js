@@ -63,7 +63,7 @@ module.exports.connections = {
         // user: 'username',
         // password: 'password',
         //database: 'showdemo'
-        uri:'mongodb://georgelynch1980_2:georgelynch1980@ds043012.mongolab.com:43012/heroku_app37389978'
+        url:'mongodb://georgelynch1980_2:georgelynch1980@ds043012.mongolab.com:43012/heroku_app37389978'
     },
 
     MongoLabServer: {
@@ -72,7 +72,7 @@ module.exports.connections = {
         //port: 27017,
         // user: 'username',
         // password: 'password',
-        uri: process.env.MONGOLAB_URI
+        url: process.env.MONGOLAB_URI
     },
 
     /***************************************************************************
