@@ -72,7 +72,7 @@ module.exports.connections = {
         //port: 27017,
         // user: 'username',
         // password: 'password',
-        url: 'mongodb://heroku_app37393524:k14lb2d65hhq7h06putq4n8ooe@ds043012.mongolab.com:43012/heroku_app37389978'
+        url: 'mongodb://heroku_app37393524:k14lb2d65hhq7h06putq4n8ooe@ds043012.mongolab.com:43012/heroku_app37389978/showdemo'
     },
 
     /***************************************************************************
