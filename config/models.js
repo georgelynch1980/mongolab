@@ -19,7 +19,7 @@ module.exports.models = {
   ***************************************************************************/
   //connection: 'localDiskDb',
   //connection: 'someMongodbServer',
-  connection: 'MongoLabServer',
+  connection: 'heroku_mongolab',
 
   /***************************************************************************
   *                                                                          *
@@ -29,6 +29,6 @@ module.exports.models = {
   * See http://sailsjs.org/#!/documentation/concepts/ORM/model-settings.html  *
   *                                                                          *
   ***************************************************************************/
-  migrate: 'alter'
+ // migrate: 'alter'
 
 };
