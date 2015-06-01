@@ -30,8 +30,8 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/anonymous node/sails user/sails_mongodb_demo.git"
+    "url": "https://github.com/georgelynch1980/mongolab.git
   },
-  "author": "anonymous node/sails user",
+  "author": "georgelynch1980",
   "license": ""
 }
