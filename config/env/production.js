@@ -18,7 +18,7 @@ module.exports = {
    ***************************************************************************/
 
    models: {
-     connection: 'MongoLabServer'
+     connection: 'heroku_mongolab'
    },
     
 

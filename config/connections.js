@@ -65,6 +65,10 @@ module.exports.connections = {
         //database: 'showdemo'
         //url: 'mongodb://georgelynch1980_2:georgelynch1980@ds043012.mongolab.com:43012/heroku_app37389978'
     },
+    heroku_mongolab: {
+        adapter: "sails-mongo",
+        url: "mongodb://heroku_app37393524:k14lb2d65hhq7h06putq4n8ooe@ds043012.mongolab.com:43012/heroku_app37393524"
+    },
     //mongodb://heroku_app37393524:k14lb2d65hhq7h06putq4n8ooe@ds043012.mongolab.com:43012/heroku_app37393524
     MongoLabServer: {
         adapter: 'sails-mongo',
